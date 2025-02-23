@@ -1,5 +1,5 @@
 class Artist < ApplicationRecord
-  has_many :movie
+  has_many :movies
  
   def to_s
     name
